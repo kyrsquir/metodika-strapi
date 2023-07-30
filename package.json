@@ -1,0 +1,29 @@
+{
+  "name": "metodika-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "metodika.ru Strapi backend",
+  "author": {
+    "name": "Tim Meyerson"
+  },
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "4.11.1",
+    "@strapi/plugin-users-permissions": "4.11.1",
+    "@strapi/plugin-i18n": "4.11.1",
+    "better-sqlite3": "8.0.1"
+  },
+  "strapi": {
+    "uuid": "ca77453d-d41e-46d4-82b9-b269bd486f92"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
